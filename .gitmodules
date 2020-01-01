@@ -1,0 +1,6 @@
+[submodule "January\\week 1\\forex_client"]
+	path = January\\week 1\\forex_client
+	url = ""
+[submodule "./January/week 1/forex_client"]
+	path = ./January/week 1/forex_client
+	url = ""
