@@ -1,2 +1,5 @@
 [submodule "January/week 1/forex_client"]
 	url = https://github.com/Afront/forex_client.git
+[submodule "January/week 1/login_screen"]
+	path = January/week 1/login_screen
+	url = https://github.com/Afront/login-screen.git
