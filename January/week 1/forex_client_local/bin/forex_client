@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "forex_client"
+
+fc = ForexClient::Test.new
+fc.hey
