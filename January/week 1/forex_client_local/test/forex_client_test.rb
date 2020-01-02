@@ -1,5 +1,6 @@
 require "test_helper"
 require "forex_client/api"
+require "minitest/benchmark" if ENV["BENCH"]
 
 class ForexClientTest < Minitest::Test
   def test_that_it_has_a_version_number
@@ -27,6 +28,7 @@ describe ForexClient do
   before do
     @callstruct =  API::CallStruct.new(function = "CURRENCY_EXCHANGE_RATE", from_currency = "USD", to_currency = "TWD")
   end
+
 =begin
   describe CallStruct do
     describe "#generate_url" do
@@ -49,5 +51,21 @@ describe ForexClient do
   
   describe "#get_json" do
     
+  end
+end
+
+
+describe "CallStruct Benchmark" do
+  if ENV["BENCH"] then
+    bench_performance_linear "CallStruct as Struct", 0.000 do |n|
+      1000.times do
+        API::CallStruct.new(function = "CURRENCY_EXCHANGE_RATE", from_currency = "USD", to_currency = "TWD").generate_url
+      end
+    end
+    bench_performance_linear "CallStruct as Class", 0.000 do |n|
+      1000.times do
+        API::CallStructClass.new(function: "CURRENCY_EXCHANGE_RATE", from_currency: "USD", to_currency: "TWD").generate_url
+      end
+    end
   end
 end
