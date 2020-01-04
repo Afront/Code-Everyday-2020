@@ -1,27 +1,32 @@
 require 'Faraday'
 require 'JSON'
 
+
 module API
+
+
   raise IOError, 'ALPHA_VANTAGE_API_KEY is not set as an environmental variable' if ENV['ALPHA_VANTAGE_API_KEY'].nil?
   API_KEY = ENV['ALPHA_VANTAGE_API_KEY'].to_s
   CallStruct = Struct.new(:function, :from_currency, :to_currency, :from_symbol, :to_symbol, :interval, :outputsize, :datatype) do
     def validate_data
-      case function
-      when 'CURRENCY_EXCHANGE_RATE'
-        #parameters = [function, from_currency, to_currency]
-        #will add a function for reporting errors later on...
-        arr_err = []
-        arr_err << 'only from_currency and to_currency should be set' if from_symbol || to_symbol || interval || outputsize || datatype
-        arr_err << 'from_currency and to_currency are not set' unless from_currency && to_currency
-        arr_err << 'from_currency is not set' unless from_currency
-        arr_err << 'to_currency is not set' unless from_currency && to_currency
-        raise ArgumentError, arr_err.join('\n') unless arr_err.empty?
-      when 'FX_INTRADAY'
+      parameters = {"CURRENCY_EXCHANGE_RATE"=> {:required => [function, from_currency, to_currency], :optional => []}, 
+        "FX_INTRADAY"=> {:required => [function, from_symbol, to_symbol, interval], :optional => [outputsize, datatype]},  
+        "FX_DAILY"=> {:required => [function, from_symbol, to_symbol], :optional => [outputsize, datatype]},
+        "FX_WEEKLY"=> {:required => [function, from_symbol, to_symbol], :optional => [datatype]},
+        "FX_MONTHLY"=> {:required => [function, from_symbol, to_symbol], :optional => [datatype]},
+        }
 
-      when 'FX_DAILY'
-        
-      when 'FX_WEEKLY' || 'FX_MONTHLY'
+      required_parameters = parameters[function][:required]
+      optional_parameters = parameters[function][:optional]
+
+      arr_err = []
+      self.each_pair do |parameter, value|
+        arr_err << "#{parameter} is not set" if !value && (required_parameters.include? value) #need to fix name choices soon
+        arr_err << "#{parameter} should not be set for #{function}" unless (required_parameters+optional_parameters).include? value
       end
+
+      raise ArgumentError, arr_err.join('\n') unless arr_err.empty? #fix newline
+
     end
 
     def generate_url
