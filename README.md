@@ -1,7 +1,8 @@
 ## Code Everyday 2020
 >*A (personal) project where I code every day in the year 2020*
 
- [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE.md)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE-APACHE)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE-MIT)
  
 ---
 
@@ -41,6 +42,7 @@ Reach out to me at one of the following places!
 
 ## License
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE.md)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE-APACHE)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE-MIT)
 
 Copyright 2020 © <a href="https://afront.me" target="_blank">Afront</a>.
