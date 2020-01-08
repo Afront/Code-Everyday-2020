@@ -36,7 +36,7 @@ This is supposed to be a personal project, but feel free to fork it or use it fo
 
 Reach out to me at one of the following places!
 
-- ~~Website at <a href="https://code-eveyday.afront.me" target="_blank">`code-everyday.afront.me`</a>~~
+- ~~Website at <a href="https://coding-eveyday.works" target="_blank">`coding-eveyday.works`</a>~~
 
 ---
 
