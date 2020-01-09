@@ -3,3 +3,6 @@
 	url = https://github.com/Afront/login-screen.git
 [submodule "January/week 1/forex_client"]
 	url = https://github.com/Afront/forex_client.git
+[submodule "January/'week 2'/auth_client"]
+	path = January/'week 2'/auth_client
+	url = https://github.com/Afront/auth_client.git
