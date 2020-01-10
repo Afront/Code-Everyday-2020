@@ -1,6 +1,3 @@
-[submodule "January/week 1/login_screen"]
-	path = January/week 1/login_screen
-	url = https://github.com/Afront/login-screen.git
 [submodule "January/auth_client"]
 	path = January/auth_client
 	url = https://github.com/Afront/auth_client.git
