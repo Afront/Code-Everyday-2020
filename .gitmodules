@@ -1,3 +1,9 @@
 [submodule "January/auth_client"]
 	path = January/auth_client
 	url = https://github.com/Afront/auth_client.git
+[submodule "January/forex_client"]
+	path = January/forex_client
+	url = https://github.com/Afront/forex_client.git
+[submodule "January/bank_api"]
+	path = January/bank_api
+	url = https://github.com/Afront/bank_api.git
