@@ -7,3 +7,6 @@
 [submodule "January/bank_api"]
 	path = January/bank_api
 	url = https://github.com/Afront/bank_api.git
+[submodule "January/stock_market_client"]
+	path = January/stock_market_client
+	url = https://github.com/Afront/stock_market_client
