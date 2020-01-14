@@ -10,3 +10,6 @@
 [submodule "January/stock_market_client"]
 	path = January/stock_market_client
 	url = https://github.com/Afront/stock_market_client
+[submodule "year_round/quicr"]
+	path = year_round/quicr
+	url = https://github.com/Afront/quicr.git
