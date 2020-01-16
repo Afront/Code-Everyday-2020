@@ -13,3 +13,6 @@
 [submodule "year_round/quicr"]
 	path = year_round/quicr
 	url = https://github.com/Afront/quicr.git
+[submodule "January/alpha_vantage_client"]
+	path = January/alpha_vantage_client
+	url = https://github.com/Afront/alpha_vantage_client.git
