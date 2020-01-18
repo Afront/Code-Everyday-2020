@@ -10,3 +10,6 @@
 [submodule "January/alpha_vantage_client"]
 	path = January/alpha_vantage_client
 	url = https://github.com/Afront/alpha_vantage_client.git
+[submodule "January/bank_server"]
+	path = January/bank_server
+	url = https://github.com/Afront/bank_server.git
