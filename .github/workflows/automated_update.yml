@@ -1,0 +1,14 @@
+name: Automated Update
+
+on:
+  schedule:
+    - cron:  '59 11,23 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Update submodules
+      run: git submodule foreach --recursive git pull origin master
+    - name: Commit
+      run: git commit -m "Updated submodules"
