@@ -1,15 +1,18 @@
+[submodule "January/alpha_vantage_client"]
+	path = January/alpha_vantage_client
+	url = https://github.com/Afront/alpha_vantage_client.git
 [submodule "January/auth_client"]
 	path = January/auth_client
 	url = https://github.com/Afront/auth_client.git
 [submodule "January/bank_api"]
 	path = January/bank_api
 	url = https://github.com/Afront/bank_api.git
-[submodule "year_round/quicr"]
-	path = year_round/quicr
-	url = https://github.com/Afront/quicr.git
-[submodule "January/alpha_vantage_client"]
-	path = January/alpha_vantage_client
-	url = https://github.com/Afront/alpha_vantage_client.git
 [submodule "January/bank_server"]
 	path = January/bank_server
 	url = https://github.com/Afront/bank_server.git
+[submodule "January/give-me.space"]
+	path = January/give-me.space
+	url = https://github.com/Afront/give-me.space.git
+[submodule "year_round/quicr"]
+	path = year_round/quicr
+	url = https://github.com/Afront/quicr.git
