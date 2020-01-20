@@ -11,24 +11,24 @@ There will be a small project every week related to the theme of the month. In t
 
 |  Month    |  Theme  |  Guest Language(s)                 |
 |-----------|:-------:|------------------------------------|
-|  January  | Finance | (COBOL, Haskell, PL/I, Smalltalk)? |
-| February  |  TBD    | TBD                                |
-| March     | TBD     | TBD                                |
+|  January  | Finance | Elixir                             |
+|  February | TBD     | TBD                                |
+|  March    | TBD     | TBD                                |
 |  April    | TBD     | TBD                                |
-| May       | TBD     | TBD                                |
+|  May      | TBD     | TBD                                |
 |  June     | TBD     | TBD                                |
-| July      | Rust    | N/A?                               |
-| August    | TBD     | TBD                                |
-| September | TBD     | TBD                                |
+|  July     | Rust    | N/A?                               |
+|  August   | TBD     | TBD                                |
+|  September| TBD     | TBD                                |
 |  October  | TBD     | TBD                                |
-| November  | TBD     | TBD                                |
-| December  | Ruby    | N/A?                               |
+|  November | TBD     | TBD                                |
+|  December | Ruby    | N/A?                               |
 
 ---
 
 ## Contributing
 
-This is supposed to be a personal project, but feel free to fork it or use it for your project (licensed under Apache 2.0). Also, feel free to raise an issue if something's wrong. I appreciate it!
+This is supposed to be a personal project, but feel free to fork it or use it for your project (licensed under Apache 2.0 or MIT). Also, feel free to raise an issue if something's wrong. I appreciate it!
 
 ---
 
@@ -36,7 +36,7 @@ This is supposed to be a personal project, but feel free to fork it or use it fo
 
 Reach out to me at one of the following places!
 
-- ~~Website at <a href="https://coding-eveyday.works" target="_blank">`coding-eveyday.works`</a>~~
+- Website at <a href="https://coding-eveyday.works" target="_blank">`coding-eveyday.works`</a>
 
 ---
 
