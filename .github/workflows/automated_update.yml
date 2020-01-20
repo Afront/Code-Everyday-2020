@@ -2,7 +2,7 @@ name: Automated Update
 
 on:
   schedule:
-    - cron:  '59 11,23 * * *'
+    - cron:  '00,30 * * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,4 +15,4 @@ jobs:
         git config --global user.name "Afront (Automated)"
         git config --global user.email "3943720+Afront@users.noreply.github.com"
     - name: Commit
-      run: git commit -m "Updated submodules"
+      run: git commit -m "Update submodules"
