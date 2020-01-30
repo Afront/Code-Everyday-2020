@@ -16,3 +16,6 @@
 [submodule "year_round/quicr"]
 	path = year_round/quicr
 	url = https://github.com/Afront/quicr.git
+[submodule "January/alpha_vantage_wrapper"]
+	path = January/alpha_vantage_wrapper
+	url = https://github.com/Afront/alpha_vantage_wrapper.git
