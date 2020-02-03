@@ -25,3 +25,6 @@
 [submodule "February/TinyBASIC-RPN-Calculator"]
 	path = February/TinyBASIC-RPN-Calculator
 	url = https://github.com/Afront/TinyBASIC-RPN-Calculator.git
+[submodule "udp-cr"]
+	path = udp-cr
+	url = https://github.com/Afront/udp-cr.git
