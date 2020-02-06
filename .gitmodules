@@ -19,12 +19,6 @@
 [submodule "January/alpha_vantage_wrapper"]
 	path = January/alpha_vantage_wrapper
 	url = https://github.com/Afront/alpha_vantage_wrapper.git
-[submodule "February/Project-Pebbles"]
-	path = February/Project-Pebbles
-	url = https://github.com/Afront/Project-Pebbles.git
-[submodule "February/TinyBASIC-RPN-Calculator"]
-	path = February/TinyBASIC-RPN-Calculator
-	url = https://github.com/Afront/TinyBASIC-RPN-Calculator.git
 [submodule "udp-cr"]
 	path = udp-cr
 	url = https://github.com/Afront/udp-cr.git
