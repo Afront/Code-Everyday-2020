@@ -25,3 +25,6 @@
 [submodule "February/Project-Pebbles"]
 	path = February/Project-Pebbles
 	url = https://github.com/Afront/Project-Pebbles.git
+[submodule "others/tic_tac_toe"]
+	path = others/tic_tac_toe
+	url = https://github.com/Afront/tic_tac_toe.git
