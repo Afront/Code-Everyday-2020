@@ -28,3 +28,6 @@
 [submodule "February/Project-Pebbles"]
 	path = February/Project-Pebbles
 	url = https://github.com/Afront/Project-Pebbles.git
+[submodule "February/opencalc"]
+	path = February/opencalc
+	url = https://github.com/Afront/opencalc.git
