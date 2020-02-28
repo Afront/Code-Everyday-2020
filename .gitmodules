@@ -31,3 +31,6 @@
 [submodule "February/opencalc"]
 	path = February/opencalc
 	url = https://github.com/Afront/opencalc.git
+[submodule "others/crit"]
+	path = others/crit
+	url = https://github.com/Afront/crit.git
