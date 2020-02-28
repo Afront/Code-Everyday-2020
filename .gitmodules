@@ -19,9 +19,6 @@
 [submodule "January/alpha_vantage_wrapper"]
 	path = January/alpha_vantage_wrapper
 	url = https://github.com/Afront/alpha_vantage_wrapper.git
-[submodule "udp-cr"]
-	path = udp-cr
-	url = https://github.com/Afront/udp-cr.git
 [submodule "others/tic_tac_toe"]
 	path = others/tic_tac_toe
 	url = https://github.com/Afront/tic_tac_toe.git
@@ -34,3 +31,6 @@
 [submodule "others/crit"]
 	path = others/crit
 	url = https://github.com/Afront/crit.git
+[submodule "others/udp_cr"]
+	path = others/udp_cr
+	url = https://github.com/Afront/udp-cr.git
