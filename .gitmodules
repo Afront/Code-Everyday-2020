@@ -34,3 +34,6 @@
 [submodule "March/quicr"]
 	path = March/quicr
 	url = https://github.com/Afront/quicr.git
+[submodule "March/Project-Dysa"]
+	path = March/Project-Dysa
+	url = https://github.com/Afront/Project-Dysa.git
