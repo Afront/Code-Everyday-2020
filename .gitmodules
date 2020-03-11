@@ -37,3 +37,6 @@
 [submodule "March/Project-Dysa"]
 	path = March/Project-Dysa
 	url = https://github.com/Afront/Project-Dysa.git
+[submodule "games/rock_paper_scissors"]
+	path = games/rock_paper_scissors
+	url = https://github.com/Afront/rock_paper_scissors.git
