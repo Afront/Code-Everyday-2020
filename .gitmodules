@@ -40,3 +40,6 @@
 [submodule "games/tic_tac_toe"]
 	path = games/tic_tac_toe
 	url = https://github.com/Afront/tic_tac_toe.git
+[submodule "March/PInder"]
+	path = March/PInder
+	url = https://github.com/Afront/pi_approximator.git
