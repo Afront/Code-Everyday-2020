@@ -43,3 +43,6 @@
 [submodule "March/PInder"]
 	path = March/PInder
 	url = https://github.com/Afront/pi_approximator.git
+[submodule "March/kibi"]
+	path = March/kibi
+	url = https://github.com/Afront/kibi.git
