@@ -46,3 +46,6 @@
 [submodule "March/kibi"]
 	path = March/kibi
 	url = https://github.com/Afront/kibi.git
+[submodule "April/bogomerge"]
+	path = April/bogomerge
+	url = https://github.com/Afront/bogomerge.git
