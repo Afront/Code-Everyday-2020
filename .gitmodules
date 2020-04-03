@@ -49,3 +49,6 @@
 [submodule "April/bogomerge"]
 	path = April/bogomerge
 	url = https://github.com/Afront/bogomerge.git
+[submodule "April/drawing_generator"]
+	path = April/drawing_generator
+	url = https://github.com/Afront/drawing_generator.git
