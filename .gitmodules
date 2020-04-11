@@ -55,3 +55,6 @@
 [submodule "April/crystal-colourlovers.git"]
 	path = April/crystal-colourlovers.git
 	url = https://github.com/Afront/crystal-colourlovers.git
+[submodule "April/copy"]
+	path = April/copy
+	url = https://github.com/Afront/copy.git
