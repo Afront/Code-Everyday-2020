@@ -58,3 +58,6 @@
 [submodule "April/copy"]
 	path = April/copy
 	url = https://github.com/Afront/copy.git
+[submodule "April/tetrimino_online"]
+	path = April/tetrimino_online
+	url = https://github.com/Afront/tetrimino_online.git
