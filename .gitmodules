@@ -64,3 +64,6 @@
 [submodule "May/http_parser"]
 	path = May/http_parser
 	url = https://github.com/Afront/http_parser.git
+[submodule "May/cube_notation_compiler"]
+	path = May/cube_notation_compiler
+	url = https://github.com/Afront/cube-notation-compiler.git
