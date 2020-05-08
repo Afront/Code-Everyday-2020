@@ -67,3 +67,6 @@
 [submodule "May/cube_notation_compiler"]
 	path = May/cube_notation_compiler
 	url = https://github.com/Afront/cube-notation-compiler.git
+[submodule "others/coding_exercise"]
+	path = others/coding_exercise
+	url = https://github.com/Afront/coding_exercises.git
